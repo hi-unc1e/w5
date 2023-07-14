@@ -4,7 +4,7 @@ services:
     build: .
     restart: always
     container_name: w5_web
-    platform: "linux/amd64"
+    # platform: "linux/amd64"
     ports:
       - "8888:8888"
     depends_on:
